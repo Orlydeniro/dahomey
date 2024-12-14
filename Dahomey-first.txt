@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dahomey & Benin History Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <h1>Dahomey & Benin History</h1>
+      <nav>
+          <a href="#home">Home</a>
+          <a href="#history">History of Dahomey</a>
+          <a href="#towns">Main Towns of Benin</a>
+          <a href="#quiz">Quiz</a>
+      </nav>
+  </header>
+    <section id="home">
+    <h2>Welcome to Dahomey & Benin History</h2>
+    <p>Explore the rich history of Dahomey and the main towns in Benin.</p>
+  </section>
+
+    <section id="history">
+        <h2>History of Dahomey</h2>
+        <p>Content about Dahomey's history goes here. You'll add more details about its foundation, growth, prominent rulers, the impact of the slave trade, colonial period, and its eventual transformation into Benin.</p>
+        </section>
+   <section id="towns">
+            <h2>Main Towns of Benin</h2>
+              <p>Content about main towns in Benin goes here. You'll add details about cities like Porto-Novo, Cotonou, Ouidah, Abomey, and Parakou, discussing their historical relevance and modern-day significance.</p>
+           </section>
+    <section id="quiz">
+        <h2>Quiz</h2>
+        <div id="quiz-container">
+            <div id="question-container">
+               <p id="question"></p>
+            </div>
+           <div id="answer-buttons">
+               <button class="answer-btn">Answer 1</button>
+               <button class="answer-btn">Answer 2</button>
+               <button class="answer-btn">Answer 3</button>
+               <button class="answer-btn">Answer 4</button>
+           </div>
+           <div id="feedback"></div>
+           <button id="next-button">Next Question</button>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
